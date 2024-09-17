@@ -105,6 +105,7 @@ const config: Config = {
         marquee: "marquee var(--duration) linear infinite",
         "marquee-vertical": "marquee-vertical var(--duration) linear infinite",
       },
+
       keyframes: {
         marquee: {
           from: { transform: "translateX(0)" },
