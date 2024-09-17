@@ -293,8 +293,8 @@ const Section6 = () => {
                   can also phone or email a business at various times of the day
                   to determine how good telephone and computer service is. If
                   customers are kept waiting on the telephone or emails are
-                  ignored, a company's reputation may suffer.Performance audits
-                  reveal these problems so that business owners can take
+                  ignored, a company&apos;s reputation may suffer.Performance
+                  audits reveal these problems so that business owners can take
                   appropriate action.
                 </p>
               </div>
