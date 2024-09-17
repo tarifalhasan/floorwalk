@@ -9,7 +9,7 @@ const Section4 = () => {
           A Comprehensive Guide to Customer Experience Evaluation
         </p>
       </div>
-      <div className="pt-10 grid sm:grid-cols-2 gap-5 lg:grid-cols-4">
+      <div className="pt-10 grid sm:grid-cols-2 gap-10 lg:grid-cols-4">
         <div>
           <div className="flex items-center gap-1">
             <div className="w-10 h-10 grid place-items-center rounded-full bg-skin-primary">
