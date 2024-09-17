@@ -19,7 +19,10 @@ const config: Config = {
     extend: {
       backgroundImage: {
         g1: "linear-gradient(145deg, #B4E5FF 1.09%, #BBDEF1 99.06%)",
-        section1Bg: "url('/Section-1/Section-1-Background.png')",
+        g2: "radial-gradient(558.04% 113.57% at 93% 5.13%, #4AABE0 0%, #007DC1 81.8%)",
+        g3: "radial-gradient(62.13% 119.61% at 52.44% -14.71%, #1E5C7E 0%, #003C5D 81.8%)",
+        g4: "linear-gradient(135deg, rgba(141, 198, 63, 0.85) 25.14%, rgba(156, 194, 103, 0.85) 98.73%)",
+        MysteryShoppers: "url('/images/Mystery Shoppers.png')",
         headingText: "linear-gradient(92deg, #FFF 38.6%, #919191 132.59%)",
       },
       colors: {
