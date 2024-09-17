@@ -24,6 +24,7 @@ const config: Config = {
         g4: "linear-gradient(135deg, rgba(141, 198, 63, 0.85) 25.14%, rgba(156, 194, 103, 0.85) 98.73%)",
         MysteryShoppers: "url('/images/Mystery Shoppers.png')",
         headingText: "linear-gradient(92deg, #FFF 38.6%, #919191 132.59%)",
+        section3Bg: "linear-gradient(111deg, #007DC1 0.54%, #003B5B 93.47%)",
       },
       colors: {
         background: "hsl(var(--background))",
