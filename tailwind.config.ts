@@ -18,7 +18,7 @@ const config: Config = {
     },
     extend: {
       backgroundImage: {
-        btnBg: "linear-gradient(45deg, #3F61C1 0.23%, #37E6F4 100.23%)",
+        g1: "linear-gradient(145deg, #B4E5FF 1.09%, #BBDEF1 99.06%)",
         section1Bg: "url('/Section-1/Section-1-Background.png')",
         headingText: "linear-gradient(92deg, #FFF 38.6%, #919191 132.59%)",
       },
@@ -52,6 +52,7 @@ const config: Config = {
           "neutral-800": "#353E4C",
           "primary-50": "#F0F5FF",
           "secondary-100": "#E8E8EA",
+          "play-sky-blue": "#B7E3FB",
         },
         popover: {
           DEFAULT: "hsl(var(--popover))",
