@@ -1,3 +1,4 @@
+import Footer from "@/components/footer";
 import { MainHeader } from "@/components/header";
 import { MobileHeader } from "@/components/mobile-header";
 import { cn } from "@/lib/utils";
@@ -39,6 +40,7 @@ export default function RootLayout({
         <MainHeader />
         <MobileHeader />
         {children}
+        <Footer />
       </body>
     </html>
   );
