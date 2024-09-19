@@ -142,7 +142,7 @@ const Section2 = () => {
               className="gap-3 w-full text-skin-primary border-skin-primary"
               variant={"outline"}
             >
-              Contact Us
+              Explore More
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
@@ -169,7 +169,7 @@ const Section2 = () => {
                 </g>
               </svg>
             </Button>
-            <Button>Explore Marketplace</Button>
+            <Button>Register as a shopper</Button>
           </div>
         </div>
         <Image
