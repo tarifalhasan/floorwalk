@@ -1,13 +1,18 @@
 const Section6 = () => {
   return (
-    <section className="bg-white py-10 lg:py-20 bg-[url('/images/we-belive-our-trust.png')] bg-no-repeat  relative min-h-[594px] bg-top">
+    <section
+      className="bg-white pt-10 pb-[9rem] xl:pb-[12rem] lg:pt-24 bg-[url('/images/we-belive-our-trust.png')] bg-no-repeat  relative min-h-[594px] bg-top bull"
+      style={{
+        backgroundSize: "100%",
+      }}
+    >
       <div className=" relative  z-40">
         <h1 className="text-center max-w-[868px] mx-auto text-[2rem] lg:text-[2.5rem]  leading-[110%] font-bold text-white">
           We work on our values
         </h1>
       </div>
-      <div className="md:grid-cols-2 lg:grid-cols-3 relative  grid  container gap-6 pt-10 lg:pt-20">
-        <div className="hidden lg:block left-[7rem] w-[162px] rotate-[120deg] h-[162px] rounded-[22px] opacity-[0.06] bg-white absolute z-10"></div>
+      <div className="md:grid-cols-2 lg:grid-cols-3 relative  grid  container gap-6 pt-10  lg:pt-24">
+        <div className="hidden top-8 lg:block left-[7rem] w-[162px] rotate-[120deg] h-[162px] rounded-[22px] opacity-[0.06] bg-white absolute z-10"></div>
         <div
           className="p-8 relative z-30 bg-no-repeat bg-cover bg-center bg-[url('/images/about-card-1bg.png')] rounded-[16px] flex flex-col gap-y-6"
           style={{
@@ -50,7 +55,7 @@ const Section6 = () => {
           </div>
         </div>
         <div
-          className="p-8 bg-no-repeat bg-cover bg-center bg-[url('/images/about-card-1bg.png')] rounded-[16px] relative z-30 flex flex-col gap-y-6"
+          className="p-8 bg-no-repeat bg-cover bg-center bg-[url('/images/about-card-2bg.png')] rounded-[16px] relative z-30 flex flex-col gap-y-6"
           style={{
             boxShadow: "0px 12px 56px 0px rgba(6, 28, 61, 0.12)",
           }}
@@ -92,7 +97,7 @@ const Section6 = () => {
           </div>
         </div>
         <div
-          className="p-8 bg-no-repeat bg-cover bg-center bg-[url('/images/about-card-1bg.png')] rounded-[16px] flex flex-col gap-y-6"
+          className="p-8 bg-no-repeat bg-cover bg-center bg-[url('/images/about-card-3bg.png')] rounded-[16px] flex flex-col gap-y-6"
           style={{
             boxShadow: "0px 12px 56px 0px rgba(6, 28, 61, 0.12)",
           }}
