@@ -43,6 +43,8 @@ const config: Config = {
           "secondary-500": "#A0D05F",
           "primary-900": "#00527E",
           "secondary-400": "#B3D97F",
+          "secondary-600": "#3B3C4A",
+          "secondary-800": "#181A2A",
           "primary-100": "#D7F1FF",
           "brand-primary": "#2563EB",
           "gray-20": "#DDE1E6",
