@@ -136,8 +136,6 @@ const Section5 = () => {
           )}
           {activeItem === 2 && (
             <div>
-              {/*  */}
-
               <Image
                 src={"/images/FloorInsights.svg"}
                 alt="FloorInsigts"
