@@ -107,31 +107,14 @@ export const resources: {
 ];
 
 export function MainHeader() {
-  const [header, setHeader] = React.useState(false);
   const [openMenu, setIsOpenMenu] = React.useState(false);
   const [activeTrigger, setActiveTrigger] = React.useState<string | null>(null);
-
-  React.useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 40) {
-        setHeader(true);
-      } else {
-        setHeader(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
 
   return (
     <header
       className={cn(
-        " hidden lg:flex py-5 border-b border-skin-gray-20 z-50 h-[88px] items-center    sticky left-0 right-0 top-0",
-        header ? "backdrop-blur-sm bg-white/[0.8] " : ""
+        " hidden lg:flex py-5 border-b border-skin-gray-20 z-50 h-[88px] items-center    sticky left-0 right-0 top-0 bg-white"
+        // header ? "backdrop-blur-sm bg-white/[0.8] " : ""
       )}
     >
       <div className=" container flex items-center justify-between">

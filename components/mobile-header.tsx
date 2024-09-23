@@ -28,41 +28,24 @@ import {
 } from "@/components/ui/navigation-menu";
 import { Globe, Menu } from "lucide-react";
 
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { products, resources } from "./header";
 import { Button } from "./ui/button";
 
 export function MobileHeader() {
-  const [header, setHeader] = React.useState(false);
   const [openMenu, setIsOpenMenu] = React.useState(false);
-
-  React.useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 40) {
-        setHeader(true);
-      } else {
-        setHeader(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
 
   return (
     <header
       className={cn(
-        "lg:hidden py-5 z-50 h-[88px] items-center sticky left-0 right-0 top-0",
-        header ? "backdrop-blur-sm bg-white/[0.8] " : ""
+        "lg:hidden py-5 z-50 bg-white h-[88px] items-center sticky left-0 right-0 top-0"
       )}
     >
       <div className=" container flex items-center justify-between">
         <div>
           <Link href={"/"}>
-            <h2>Logo</h2>
+            <Image src={"/logo.png"} alt="logo" width={164} height={62} />
           </Link>
         </div>
         <div className=" hidden lg:block">
