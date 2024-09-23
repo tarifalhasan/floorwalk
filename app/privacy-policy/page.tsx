@@ -29,21 +29,15 @@ const IndustriesAndClientsWeserve = () => {
   const [activeFilter, setActiveFilter] = useState("definitions");
 
   return (
-    <div className="lg:py-10 py-4 container">
+    <div className="lg:py-10 xl:py-20 py-4 container">
       <div>
-        <div className="bg-[url('/images/IndustriesAndClientsWeserve1.png')] bg-contain   bg-center pb-[8%] bg-no-repeat opacity-30 w-full"></div>
         <div className="space-y-2">
           <h1 className="text-center max-w-[868px] mx-auto text-[2.6rem] xl:text-[3.625rem] leading-[110%] font-bold text-skin-primary-900">
-            <span className="text-skin-secondary-500"> Industries</span> &
-            <span className="text-skin-secondary-500"> Clients </span>We serve
+            <span className="text-skin-secondary-500"> Privacy</span> & Policy
           </h1>
-          <p className="text-center font-normal leading-[120%] text-skin-neutral-600 text-base xl:text-lg">
-            We are now serving in 22+ countries
-          </p>
         </div>
-        <div className="bg-[url('/images/IndustriesAndClientsWeserve2.png')] bg-contain   bg-center pb-[8%] bg-no-repeat opacity-30 w-full"></div>
       </div>
-      <div className="pt-10 flex flex-col lg:grid grid-cols-12 gap-y-10 lg:gap-y-0 lg:gap-x-10">
+      <div className="pt-10 xl:pt-20 flex flex-col lg:grid grid-cols-12 gap-y-10 lg:gap-y-0 lg:gap-x-10">
         <div
           style={{
             boxShadow: "4px 4px 55px 0px rgba(0, 0, 0, 0.12)",
