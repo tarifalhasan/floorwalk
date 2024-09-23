@@ -1,5 +1,6 @@
 "use client";
 
+import Marquee from "@/components/magicui/marquee";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
@@ -109,13 +110,63 @@ const clients = [
     tag: ["banking"],
   },
 ];
+
+const margue1 = [
+  {
+    imgSrc: "/images/clients/amazon.png",
+  },
+  {
+    imgSrc: "/images/chat-analytics.png",
+  },
+  {
+    imgSrc: "/images/Caratlane-logo.bf829ec2f99735cf784d.png",
+  },
+  {
+    imgSrc: "/images/clients/shaadi.png",
+  },
+  {
+    imgSrc: "/images/clients/cars24.png",
+  },
+];
+
+const margue2 = [
+  {
+    imgSrc: "/images/clients/pwc.png",
+  },
+  {
+    imgSrc: "/images/clients/oyo.png",
+  },
+  {
+    imgSrc: "/images/clients/garmin.png",
+  },
+  {
+    imgSrc: "/images/clients/whitehatjs.png",
+  },
+  {
+    imgSrc: "/images/tci.png",
+  },
+];
+
 const IndustriesAndClientsWeserve = () => {
   const [activeFilter, setActiveFilter] = useState("all");
 
   return (
     <div className="lg:py-10 py-4 container">
       <div>
-        <div className="bg-[url('/images/IndustriesAndClientsWeserve1.png')] bg-contain   bg-center pb-[8%] bg-no-repeat opacity-30 w-full"></div>
+        {/* <div className="bg-[url('/images/IndustriesAndClientsWeserve1.png')] bg-contain   bg-center pb-[8%] bg-no-repeat opacity-30 w-full"></div> */}
+        <Marquee className="[--duration:10s] bg-white">
+          {margue2.map((item, i) => (
+            <div key={i} className="w-[10%] opacity-20  sm:w-[12%]  ">
+              <Image
+                width={200}
+                height={115}
+                className="object-contain w-full h-full"
+                src={item.imgSrc}
+                alt="dsfdf"
+              />
+            </div>
+          ))}
+        </Marquee>
         <div className="space-y-2">
           <h1 className="text-center max-w-[868px] mx-auto text-[2.6rem] xl:text-[3.625rem] leading-[110%] font-bold text-skin-primary-900">
             <span className="text-skin-secondary-500"> Industries</span> &
@@ -125,7 +176,19 @@ const IndustriesAndClientsWeserve = () => {
             We are now serving in 22+ countries
           </p>
         </div>
-        <div className="bg-[url('/images/IndustriesAndClientsWeserve2.png')] bg-contain   bg-center pb-[8%] bg-no-repeat opacity-30 w-full"></div>
+        <Marquee reverse className="[--duration:10s] bg-white">
+          {margue1.map((item, i) => (
+            <div key={i} className="w-[10%] sm:w-[12%]  ">
+              <Image
+                width={200}
+                height={115}
+                className="object-contain opacity-20 w-full h-full"
+                src={item.imgSrc}
+                alt="dsfdf"
+              />
+            </div>
+          ))}
+        </Marquee>
       </div>
       <div className="pt-10 flex flex-col lg:grid grid-cols-12 gap-y-10 lg:gap-y-0 lg:gap-x-10">
         <div
