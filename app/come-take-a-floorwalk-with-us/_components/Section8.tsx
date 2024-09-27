@@ -21,7 +21,7 @@ const RecommendedReading = [
   },
 ];
 
-const Section7 = () => {
+const Section8 = () => {
   return (
     <section className="container py-10 xl:py-20">
       <div>
@@ -106,4 +106,4 @@ const Section7 = () => {
   );
 };
 
-export default Section7;
+export default Section8;
