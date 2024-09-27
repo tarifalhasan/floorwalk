@@ -28,6 +28,7 @@ const Section4 = () => {
           >
             <Image
               src={`/images/about${i + 1}.png`}
+              shop-dine-watch-movie-free
               alt={`our-vision-${i + 1}`}
               width={446}
               height={329}
