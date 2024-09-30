@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { Search } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 
 const CASE_STUDIES_DATA = [
@@ -143,7 +144,9 @@ const CaseStudies = () => {
                 </div>
               </div>
               <div className="flex justify-end">
-                <Button>Read More</Button>
+                <Link href={"case-studies/porsche"}>
+                  <Button>Read More</Button>
+                </Link>
               </div>
             </div>
           ))}
