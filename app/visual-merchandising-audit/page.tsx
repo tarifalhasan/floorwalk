@@ -11,7 +11,7 @@ import Image from "next/image";
 import { useState } from "react";
 
 const VisualMerchandisingAudit = () => {
-  const [activeTab, setActiveTab] = useState(10);
+  const [activeTab, setActiveTab] = useState(101);
   const TABS = [
     {
       name: "Promotion Audit",
