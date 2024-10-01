@@ -107,10 +107,10 @@ const CaseStudies = () => {
               key={tab.id}
               onClick={() => setActiveTab(tab.id)}
               className={cn(
-                "inline-flex items-center font-medium font-lato gap-3 px-4 py-3 rounded",
+                "inline-flex items-center font-medium border-b-[3px] font-lato gap-3 px-4 py-3 rounded",
                 activeTab == tab.id
-                  ? "text-skin-primary  border-b-[3px] border-skin-primary"
-                  : "text-skin-neutral-400 bg-skin-base-white"
+                  ? "text-skin-primary   border-skin-primary"
+                  : "text-skin-neutral-400 border-transparent bg-skin-base-white"
               )}
             >
               <span className="">{tab.name}</span>

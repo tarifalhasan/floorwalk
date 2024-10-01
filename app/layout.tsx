@@ -2,9 +2,9 @@ import Footer from "@/components/footer";
 import { MainHeader } from "@/components/header";
 import { MobileHeader } from "@/components/mobile-header";
 import { cn } from "@/lib/utils";
+import "@/styles/globals.css";
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
-import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Floorwalk",
