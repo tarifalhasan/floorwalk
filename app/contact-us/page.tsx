@@ -370,14 +370,15 @@ const ContactUs = () => {
       </div>
       <div className="bg-skin-primary">
         <div className="container py-10 xl:py-20">
-          <div className="flex items-center flex-wrap gap-3">
+          <div className="flex gap-10 items-center flex-wrap">
             <div className="max-w-[272px]">
               <h4 className="text-4xl font-bold text-skin-base-white">
-                Get in touch with FloorWalk
+                Get in touch <br className="hidden lg:block" /> with{" "}
+                <br className="hidden lg:block" /> FloorWalk
               </h4>
             </div>
             <div className="flex-1">
-              <p className="text-xl font-normal text-white">
+              <p className="text-xl font-normal font-lato text-[#F9FAFB] ">
                 We are committed to ensuring that your privacy is protected.
                 Should we ask you to provide certain information by which you
                 can be identified when using this website, you can be assured
@@ -391,7 +392,7 @@ const ContactUs = () => {
               <div>
                 <h3 className="text-xl font-bold text-white">Head Office</h3>
               </div>
-              <div className="pt-2 space-y-5">
+              <div className="pt-5 space-y-6">
                 <div className="flex  items-start gap-2">
                   <svg
                     width="24"
@@ -405,11 +406,11 @@ const ContactUs = () => {
                       fill="#FAFAFA"
                     />
                   </svg>
-                  <p className="max-w-[300px] text-base font-bold text-white font-lato">
-                    FloorWalk Consultants Pvt Ltd. AltF Empire Square, MR-I,
-                    Unit 1, 3rd Floor, JMD Empire Square Near Sikanderpur Metro
-                    Station, Opp. Metro Pillar No. 71, MG Road Gurugram, Haryana
-                    -122002
+                  <p className="max-w-[300px] text-sm font-normal opacity-85 text-white font-lato">
+                    <b> FloorWalk Consultants Pvt Ltd.</b> <br />
+                    AltF Empire Square, MR-I, Unit 1, 3rd Floor, JMD Empire
+                    Square Near Sikanderpur Metro Station, Opp. Metro Pillar No.
+                    71, MG Road Gurugram, Haryana -122002
                   </p>
                 </div>
                 <div className="flex  items-start gap-2">
@@ -438,9 +439,9 @@ const ContactUs = () => {
                     </defs>
                   </svg>
 
-                  <p className="max-w-[300px] font-bol\ text-base font-bold text-white font-lato">
+                  <p className="max-w-[300px] text-sm font-normal opacity-85 text-white font-lato">
                     <a
-                      className="underline"
+                      className="underline font-bold"
                       href="http://"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -456,7 +457,7 @@ const ContactUs = () => {
               <div>
                 <h3 className="text-xl font-bold text-white">Branch Offices</h3>
               </div>
-              <div className="pt-2 space-y-5">
+              <div className="pt-5 space-y-6">
                 <div className="flex  items-start gap-2">
                   <svg
                     width="24"
@@ -470,9 +471,9 @@ const ContactUs = () => {
                       fill="#FAFAFA"
                     />
                   </svg>
-                  <p className="max-w-[300px] text-base font-bold text-white font-lato">
-                    FloorWalk Consultants Pvt Ltd. 215, B-zone business park,
-                    Dewas Naka, Indore 452010
+                  <p className="max-w-[300px] text-sm font-lato font-normal opacity-85 text-white">
+                    <b> FloorWalk Consultants Pvt Ltd.</b> <br /> 215, B-zone
+                    business park, Dewas Naka, Indore 452010
                   </p>
                 </div>
                 <div className="flex  items-start gap-2">
@@ -488,9 +489,10 @@ const ContactUs = () => {
                       fill="#FAFAFA"
                     />
                   </svg>
-                  <p className="max-w-[300px] text-base font-bold text-white font-lato">
-                    FloorWalk Consultants Pvt Ltd. . Eureka offices, 87, First
-                    Floor, Sawarkar Nagar, Chatrapati Sq. Nagpur- 440015
+                  <p className="max-w-[300px] text-sm font-lato font-normal text-white opacity-85">
+                    <b>FloorWalk Consultants Pvt Ltd.</b> <br /> Eureka offices,
+                    87, First Floor, Sawarkar Nagar, Chatrapati Sq. Nagpur-
+                    440015
                   </p>
                 </div>
               </div>

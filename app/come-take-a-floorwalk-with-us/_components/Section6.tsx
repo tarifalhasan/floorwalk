@@ -152,28 +152,38 @@ const Section6 = () => {
           thumbnailAlt="Hero Video"
         />
       </div>
-      <div className="py-10 xl:max-w-[1380px] container xl:py-16 grid sm:grid-cols-2 lg:grid-cols-3 gap-9 xl:grid-cols-4">
-        {LIST_ITEM_DATA.map((item, index) => (
-          <div
-            key={index}
-            style={{
-              boxShadow: "4px 4px 55px 0px rgba(30, 30, 30, 0.12)",
-            }}
-            className="px-7 py-6 gap-y-4 rounded-[8px] flex flex-col items-center "
-          >
-            <div>{item.icons}</div>
-            <div>
-              <h4 className="text-2xl text-center font-bold text-skin-primary-1000">
-                {item.title}
-              </h4>
+      <div className="py-10 xl:max-w-[1380px] container ">
+        <div className="pb-10">
+          <h3 className="text-3xl lg:text-[40px] font-bold text-center leading-[100%] text-skin-primary-1000 tracking-[1px]">
+            How does mystery shopping work?
+          </h3>
+          <h6 className="text-skin-neutral-600 font-lato text-center text-base lg:text-xl">
+            A Comprehensive Guide to Customer Experience Evaluation
+          </h6>
+        </div>
+        <div className="  grid sm:grid-cols-2 lg:grid-cols-3 gap-9 xl:grid-cols-4">
+          {LIST_ITEM_DATA.map((item, index) => (
+            <div
+              key={index}
+              style={{
+                boxShadow: "4px 4px 55px 0px rgba(30, 30, 30, 0.12)",
+              }}
+              className="px-7 py-6 gap-y-4 rounded-[8px] flex flex-col items-center "
+            >
+              <div>{item.icons}</div>
+              <div>
+                <h4 className="text-2xl text-center font-bold text-skin-primary-1000">
+                  {item.title}
+                </h4>
+              </div>
+              <div>
+                <p className="text-xs text-center xl:text-base font-lato text-skin-neutral-600">
+                  {item.des}
+                </p>
+              </div>
             </div>
-            <div>
-              <p className="text-xs text-center xl:text-base font-lato text-skin-neutral-600">
-                {item.des}
-              </p>
-            </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </section>
   );

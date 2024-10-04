@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 import Image from "next/image";
 import { useState } from "react";
 
-const Section5 = () => {
+const FloorwalkProducts = () => {
   const [activeItem, setActiveItem] = useState(1);
   return (
     <section className="container py-10 xl:py-20">
@@ -135,14 +135,80 @@ const Section5 = () => {
             </div>
           )}
           {activeItem === 2 && (
-            <div>
-              <Image
-                src={"/images/FloorInsights.svg"}
-                alt="FloorInsigts"
-                width={481}
-                height={385}
-                className=" block ml-auto"
-              />
+            <div className="grid grid-cols-2 gap-6">
+              <div
+                style={{
+                  boxShadow: "4px 4px 55px 0px rgba(0, 0, 0, 0.10)",
+                }}
+                className="rounded-[10px] p-6"
+              >
+                <div>
+                  <h3 className="text-lg font-medium tracking-[1.14px] capitalize text-skin-primary-1000">
+                    Exterior & Interior Signage Audit
+                  </h3>
+                </div>
+                <div className="pt-3">
+                  <p className="text-sm font-lato text-skin-neutral-500 capitalize leading-[125%]">
+                    Ensure your store’s signage is impactful and compliant with
+                    brand guidelines through detailed auditing and assessments.
+                  </p>
+                </div>
+              </div>
+              <div
+                style={{
+                  boxShadow: "4px 4px 55px 0px rgba(0, 0, 0, 0.10)",
+                }}
+                className="rounded-[10px] p-6"
+              >
+                <div>
+                  <h3 className="text-lg font-medium tracking-[1.14px] capitalize text-skin-primary-1000">
+                    Product Visual Merchandising
+                  </h3>
+                </div>
+                <div className="pt-3">
+                  <p className="text-sm font-lato text-skin-neutral-500 capitalize leading-[125%]">
+                    Optimize product placement and displays to attract customers
+                    and drive more sales with expert visual merchandising
+                    audits.
+                  </p>
+                </div>
+              </div>
+              <div
+                style={{
+                  boxShadow: "4px 4px 55px 0px rgba(0, 0, 0, 0.10)",
+                }}
+                className="rounded-[10px] p-6"
+              >
+                <div>
+                  <h3 className="text-lg font-medium tracking-[1.14px] capitalize text-skin-primary-1000">
+                    Product-Demo Audit
+                  </h3>
+                </div>
+                <div className="pt-3">
+                  <p className="text-sm font-lato text-skin-neutral-500 capitalize leading-[125%]">
+                    Evaluate the effectiveness of your product demonstrations to
+                    improve engagement and conversion rates.
+                  </p>
+                </div>
+              </div>
+              <div
+                style={{
+                  boxShadow: "4px 4px 55px 0px rgba(0, 0, 0, 0.10)",
+                }}
+                className="rounded-[10px] p-6"
+              >
+                <div>
+                  <h3 className="text-lg font-medium tracking-[1.14px] capitalize text-skin-primary-1000">
+                    Competition Product Display Tracking
+                  </h3>
+                </div>
+                <div className="pt-3">
+                  <p className="text-sm font-lato text-skin-neutral-500 capitalize leading-[125%]">
+                    Keep a close watch on how competitors showcase their
+                    products, and gain insights to outperform them on display.
+                  </p>
+                </div>
+              </div>
             </div>
           )}
           {activeItem === 3 && (
@@ -344,4 +410,4 @@ const Section5 = () => {
   );
 };
 
-export default Section5;
+export default FloorwalkProducts;
